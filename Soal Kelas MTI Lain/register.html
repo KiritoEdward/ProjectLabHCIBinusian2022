@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- <link rel="stylesheet" href="assets/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Register</title>
+    <style>
+        .content{
+            height: calc(100% - 7rem - 10%);
+        }
+    </style>
+</head>
+    <body>
+        <div class="container">
+            <div class="running-text">
+                <nobr>Free Delivery Fee! Without Any Minimum Transaction!</nobr>
+            </div>
+            <div class="header">
+                <div class="nav">
+                    <div class="btn-menu">
+                        <i class="fa fa-bars"></i>
+                    </div>
+
+                    <div>
+                        <img src="assets/image/logo-landscape.png" alt="" onclick="home()">
+                    </div>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./promotion.html">Promotion</a></li>
+                        <li><a href="./shopMakeUp.html">Shop Make Up</a>
+                            <ul>
+                                <li><a href="./shopMakeUp.html#1">BB Cream</a></li>
+                                <li><a href="./shopMakeUp.html#2">Foundation</a></li>
+                                <li><a href="./shopMakeUp.html#3">Blush On</a></li>
+                                <li><a href="./shopMakeUp.html#4">Face Powder</a></li>
+                                <li><a href="./shopMakeUp.html#5">Eyeliner</a></li>
+                                <li><a href="./shopMakeUp.html#6">Eyebrow Pencil</a></li>
+                                <li><a href="./shopMakeUp.html#7">Eyeshadow</a></li>
+                                <li><a href="./shopMakeUp.html#8">Maskara</a></li>
+                                <li><a href="./shopMakeUp.html#9">Lipstik</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./shopSkinCare.html">Shop Skin Care</a>
+                            <ul>
+                                <li><a href="./shopSkinCare.html#1">Make Up Remover</a></li>
+                                <li><a href="./shopSkinCare.html#2">Eye Remover</a></li>
+                                <li><a href="./shopSkinCare.html#3">Cleansing Oil</a></li>
+                                <li><a href="./shopSkinCare.html#4">Exfoliator</a></li>
+                                <li><a href="./shopSkinCare.html#5">Face Wash</a></li>
+                                <li><a href="./shopSkinCare.html#6">Toner</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./register.html">Register</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content">
+                <form name="RegForm" onsubmit="return validateForm()" method="post">
+                    <p>Register</p>
+
+                    <div class="txtregdetail">
+                        <input type="text" name="txt_name" placeholder="Name">
+                    </div>
+                    <div class="txtregdetail">
+                        <input type="text" name="txt_email" placeholder="Email">
+                    </div>
+                    <div class="txtregdetail">
+                        <input type="password" name="txt_password" placeholder="Password">
+                    </div>
+                    <div class="txtregdetail">
+                        <input type="text" name="txt_address" placeholder="Address">
+                    </div>
+                    <div id="gender">
+                        <div id="text"><p>Gender:</p></div>
+                        <div id="choosegender">
+                            <input type="radio" name="rdo_gender" value="Male"> Male
+                            <input type="radio" name="rdo_gender" value="Female"> Female
+                        </div>
+                    </div>
+                    <div class="checkBox">
+                        <input type="checkbox" name="checkAgree"> Agree to Beaudei terms and condition
+                    </div>
+
+                    <button value="submit">Register</button>
+
+                </form>
+            </div>
+            <div class="footer">
+                <h1>@2020 Beaudei. All Rights Reserved.</h1>
+            </div>
+        </div>
+        <script>
+            function validateForm() {
+          var name = document.forms["RegForm"]["txt_name"].value;
+          var email = document.forms["RegForm"]["txt_email"].value;
+          var password = document.forms["RegForm"]["txt_password"].value;
+          var address = document.forms["RegForm"]["txt_address"].value;
+          var gender = document.forms["RegForm"]["rdo_gender"].value;
+          var check = document.forms["RegForm"]["checkAgree"].value;
+          if (name == "") {
+            alert("Name must be filled out");
+          }else
+          if (email == "") {
+            alert("Email must be filled out");
+          }else
+          if (password == "") {
+            alert("Password must be filled out");
+          }else
+          if (address == "") {
+            alert("Address must be filled out");
+          }else
+          if (gender == "") {
+            alert("Gender must be filled out");
+          }else
+          if (check ==""){
+            alert("Box Must be Checked!");
+          }else{
+              alert("Register Sukses! \n"+"Nama: "+name +"\nEmail: "+email + "\nAddress: "+address+"\nGender: "+gender);
+              return true;
+          }
+        }
+        </script>
+        <script src="./assets/js/jquery-3.4.1.min.js"></script>
+        <script src="./assets/js/navbar.js"></script>
+        <script type="text/javascript">       
+            var runningText = $('.running-text');
+            var text = $('.running-text nobr');
+            var running = setInterval(function(){
+                text.animate({
+                    'margin-left' : '+=1'
+                },10,function(){
+                    if(parseInt(text.css('margin-left')) == 1450){
+                        text.css('margin-left',-320);
+                    }
+                })
+            },10)
+        </script>
+        <script src="./assets/js/imageSlider.js"></script>
+    </body>
+</html>
