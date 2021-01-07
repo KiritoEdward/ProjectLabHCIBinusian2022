@@ -1,0 +1,86 @@
+<html>
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+
+<head>
+<link rel="stylesheet" href="CSS/StyleRegister.css">
+<script type="text/javascript" src="JavaScript/JSRegister.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="kanan"> <img src="Images/RXLOGO.png" alt=""></div>
+        <div class="dropdown">
+            <a href="" class="dropbtn"> <b>Register &#8595</b> </a>
+            <div class="dropdown-content">
+                <a href="Homepage.html">Home</a>
+                <a href="Premium.html">Premium</a>
+                <a href="Top10Asian.html">Top 10 Asian Music</a>
+                <a href="GenreMusic.html">Music By Genre</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="content-Register">
+        <div id="form">
+            <h1>Register</h1>
+            <br>
+            <p> Full Name</p>
+            <!-- <form action="send.php" target="_blank" method="GET"> -->
+            <input type="text" placeholder="" name="txtfullname"  id="txtfullname">
+            <br><br>
+            <p>Email</p>
+            <input type="text" placeholder="" name="txtemail" id="txtemail">
+            <br><br>
+            <p>Password</p>
+            <input type="password" placeholder="" name="txtpass1" id="txtpass1">
+            <br><br>
+            <p>Confirm Password</p>
+            <input type="password" placeholder="" name="txtpass2" id="txtpass2">
+            <br><br>
+            <p> Select Your Gender:  &NonBreakingSpace; 
+                <input type="radio" placeholder="" value="1" name="Gender"  id="Male" >Male  &NonBreakingSpace;
+                <input type="radio" placeholder="" value="2" name="Gender" id="Female" >Female
+            </p>
+            <!-- <br> -->
+            <br>
+            <P>Choose Payment Method:
+            <select name="payment" id="payment">
+                <option value="">Debit Card</option>
+                <option value="">Bank Transfer</option>
+                <option value="">Mobile Banking</option>
+                <option value="">Digital Wallet</option>
+            </select>
+            </P>
+            
+            <br><br>
+            <input type="checkbox" id="box1" name="box1" value="agreement">
+            <label for="box1"> I Agree All Statments in Terms & Condition of Service</label><br>
+            <br>
+            <button type="submit" onclick="Submit()">Submit</button>
+            <button type="submit" onclick="Cancel()">Cancel</button>
+            <!-- <input  type="Submit" onclick="Submit()" >
+            <input  type="Submit" onclick="Reset()" name="inpSubmit" id="inpSubmit" value="Cancel"> -->
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <footer>
+            <div class="kiri">
+                <p>Copyright © RX Player, LLC. All rights reserved.</p>
+            </div>
+               <div class="kanan">
+                 <a href="https://www.facebook.com/"target="_blank"><img id="right" src="Images/fb.png" alt=""></a>
+                    <a href="https://www.twitter.com/" target="_blank"><img id="right" src="Images/twt.png" alt=""></a>
+                    <a href="Https://www.instagram.com/" target="_blank"><img id="right" src="Images/ig.png" alt=""></a>
+               </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>

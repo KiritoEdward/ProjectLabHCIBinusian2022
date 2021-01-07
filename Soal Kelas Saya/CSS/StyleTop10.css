@@ -1,0 +1,1018 @@
+*{
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header{
+    width: 100%; 
+    background-color: slateblue;
+    overflow: hidden;
+    padding-bottom: 1%;
+}
+
+.header .kanan{
+    /* float: right; */
+    margin-right: 2%;
+}
+
+.header .kanan img{
+    float: right;
+    width: 7%;
+    /* height: 12%; */
+
+}
+/* 
+.header .dropdown{
+  
+} */
+.header .dropdown{
+    float: left;
+    margin-top: 2%; 
+    margin-left: 2%;
+
+}
+
+.header .dropdown .dropbtn{
+    color: black;
+    font-size: 21px;
+}
+
+a:hover, .dropdown:hover .dropbtn{
+    color: chocolate;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    z-index: 1;
+}
+
+.dropdown-content a{
+    color: black;
+    padding: 10% 10%;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover{background-color: gray;}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+/* Content */
+
+.contentmusic{
+    background-image: url('Background/Backrground3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    padding-bottom: 260px;
+    padding-top: 1%;
+    width: 100%;
+}
+
+.contentmusic .judul-content{
+    text-align: center;
+    font-size: 35px;
+    color: papayawhip;
+    font-weight: bold;
+}
+
+/* .contentmusic.listmusic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+/* .contentmusic .listmusic .list1 img{
+} */
+
+/* CONTENT  */
+
+/* List 1 */
+
+.contentmusic .listmusic{
+    width: 60%;
+    height: fit-content;
+    margin-left: 35%;
+    margin-right: 5%;
+    justify-content: center;
+
+}
+
+.contentmusic .listmusic .list1{
+    justify-content: center;
+    text-align: left;
+    margin-top: 9%;
+    border-radius: 25px;
+    /* background-color: rgba(225, 240, 158, 0.959); */
+    background-color: #575fcf;
+    border: #222f3e 6px solid;
+    height: 130px;
+    width: 43%;
+    padding-top: 2%;
+    padding-left: 1%;
+}
+
+
+.contentmusic .listmusic .list1 p{
+    float: left;
+}
+
+.contentmusic .listmusic .list1 .kiri1{
+    margin-top: 10%;
+    font-size: 20px;
+}
+
+.contentmusic .listmusic .list1 .gambar{
+    margin-left: 6%;
+    margin-bottom: 1%;
+}
+
+.contentmusic .listmusic .list1 .song{
+  margin-top: 6%;
+  margin-left: 5%;
+  font-size: 18px;
+}
+
+/* List 2 */
+.contentmusic .listmusic .list2{
+    justify-content: center;
+    text-align: left;
+    margin-top: 7%;
+    border-radius: 25px;
+    background-color: #575fcf;
+    border: #222f3e 6px solid;
+    height: 130px;
+    width: 43%;
+    padding-top: 2%;
+    padding-left: 1%;
+
+}
+
+
+.contentmusic .listmusic .list2 p{
+    float: left;
+}
+
+.contentmusic .listmusic .list2 .kiri1{
+    margin-top: 10%;
+    font-size: 20px;
+}
+
+.contentmusic .listmusic .list2 .gambar{
+    margin-left: 6%;
+    margin-bottom: 1%;
+}
+
+.contentmusic .listmusic .list2 .song{
+  margin-top: 6%;
+  margin-left: 5%;
+  font-size: 18px;
+}
+
+
+/* List 3 */
+.contentmusic .listmusic .list3{
+    justify-content: center;
+    text-align: left;
+    margin-top: 7%;
+    border-radius: 25px;
+    background-color: #575fcf;
+    border: #222f3e 6px solid;
+    height: 130px;
+    width: 43%;
+    padding-top: 2%;
+    padding-left: 1%;
+}
+
+
+.contentmusic .listmusic .list3 p{
+    float: left;
+}
+
+.contentmusic .listmusic .list3 .kiri1{
+    margin-top: 10%;
+    font-size: 20px;
+}
+
+.contentmusic .listmusic .list3 .gambar{
+    margin-left: 6%;
+    margin-bottom: 1%;
+}
+
+.contentmusic .listmusic .list3 .song{
+  margin-top: 6%;
+  margin-left: 5%;
+  font-size: 18px;
+}
+
+
+/* List 4 */
+.contentmusic .listmusic .list4{
+    justify-content: center;
+    text-align: left;
+    margin-top: 7%;
+    border-radius: 25px;
+    background-color: #575fcf;
+    border: #222f3e 6px solid;
+    height: 130px;
+    width: 43%;
+    padding-top: 2%;
+    padding-left: 1%;
+}
+
+
+.contentmusic .listmusic .list4 p{
+    float: left;
+}
+
+.contentmusic .listmusic .list4 .kiri1{
+    margin-top: 10%;
+    font-size: 20px;
+}
+
+.contentmusic .listmusic .list4 .gambar{
+    margin-left: 6%;
+    margin-bottom: 1%;
+}
+
+.contentmusic .listmusic .list4 .song{
+  margin-top: 6%;
+  margin-left: 5%;
+  font-size: 18px;
+}
+
+/* List 5 */
+.contentmusic .listmusic .list5{
+    justify-content: center;
+    text-align: left;
+    margin-top: 7%;
+    border-radius: 25px;
+    background-color: #575fcf;
+    border: #222f3e 6px solid;
+    height: 130px;
+    width: 43%;
+    padding-top: 2%;
+    padding-left: 1%;
+}
+
+
+.contentmusic .listmusic .list5 p{
+    float: left;
+}
+
+.contentmusic .listmusic .list5 .kiri1{
+    margin-top: 10%;
+    font-size: 20px;
+}
+
+.contentmusic .listmusic .list5 .gambar{
+    margin-left: 6%;
+    margin-bottom: 1%;
+}
+
+.contentmusic .listmusic .list5 .song{
+  margin-top: 6%;
+  margin-left: 5%;
+  font-size: 18px;
+}
+
+/* List 6 */
+
+.contentmusic .listmusic .list6{
+    justify-content: center;
+    text-align: left;
+    margin-top: 7%;
+    border-radius: 25px;
+    background-color: #575fcf;
+    border: #222f3e 6px solid;
+    height: 130px;
+    width: 43%;
+    padding-top: 2%;
+    padding-left: 1%;
+}
+
+
+.contentmusic .listmusic .list6 p{
+    float: left;
+}
+
+.contentmusic .listmusic .list6 .kiri1{
+    margin-top: 10%;
+    font-size: 20px;
+}
+
+.contentmusic .listmusic .list6 .gambar{
+    margin-left: 6%;
+    margin-bottom: 1%;
+}
+
+.contentmusic .listmusic .list6 .song{
+  margin-top: 6%;
+  margin-left: 5%;
+  font-size: 18px;
+}
+
+
+
+/* List 7 */
+.contentmusic .listmusic .list7{
+    justify-content: center;
+    text-align: left;
+    margin-top: 7%;
+    border-radius: 25px;
+    background-color: #575fcf;
+    border: #222f3e 6px solid;
+    height: 130px;
+    width: 43%;
+    padding-top: 2%;
+    padding-left: 1%;
+}
+
+
+.contentmusic .listmusic .list7 p{
+    float: left;
+}
+
+.contentmusic .listmusic .list7 .kiri1{
+    margin-top: 10%;
+    font-size: 20px;
+}
+
+.contentmusic .listmusic .list7 .gambar{
+    margin-left: 6%;
+    margin-bottom: 1%;
+}
+
+.contentmusic .listmusic .list7 .song{
+  margin-top: 6%;
+  margin-left: 5%;
+  font-size: 18px;
+}
+
+
+/* List 8 */
+.contentmusic .listmusic .list8{
+    justify-content: center;
+    text-align: left;
+    margin-top: 7%;
+    border-radius: 25px;
+    background-color: #575fcf;
+    border: #222f3e 6px solid;
+    height: 130px;
+    width: 43%;
+    padding-top: 2%;
+    padding-left: 1%;
+}
+
+
+.contentmusic .listmusic .list8 p{
+    float: left;
+}
+
+.contentmusic .listmusic .list8 .kiri1{
+    margin-top: 10%;
+    font-size: 20px;
+}
+
+.contentmusic .listmusic .list8 .gambar{
+    margin-left: 6%;
+    margin-bottom: 1%;
+}
+
+.contentmusic .listmusic .list8 .song{
+  margin-top: 6%;
+  margin-left: 5%;
+  font-size: 18px;
+}
+
+
+/* List 9 */
+.contentmusic .listmusic .list9{
+    justify-content: center;
+    text-align: left;
+    margin-top: 7%;
+    border-radius: 25px;
+    background-color: #575fcf;
+    border: #222f3e 6px solid;
+    height: 130px;
+    width: 43%;
+    padding-top: 2%;
+    padding-left: 1%;
+}
+
+
+.contentmusic .listmusic .list9 p{
+    float: left;
+}
+
+.contentmusic .listmusic .list9 .kiri1{
+    margin-top: 10%;
+    font-size: 20px;
+}
+
+.contentmusic .listmusic .list9 .gambar{
+    margin-left: 6%;
+    margin-bottom: 1%;
+}
+
+.contentmusic .listmusic .list9 .song{
+  margin-top: 6%;
+  margin-left: 5%;
+  font-size: 18px;
+}
+
+/* List 10 */
+.contentmusic .listmusic .list10{
+    justify-content: center;
+    text-align: left;
+    margin-top: 7%;
+    border-radius: 25px;
+    background-color: #575fcf;
+    border: #222f3e 6px solid;
+    height: 130px;
+    width: 43%;
+    padding-top: 2%;
+    padding-left: 1%;
+}
+
+
+.contentmusic .listmusic .list10 p{
+    float: left;
+}
+
+.contentmusic .listmusic .list10 .kiri1{
+    margin-top: 10%;
+    font-size: 20px;
+}
+
+.contentmusic .listmusic .list10 .gambar{
+    margin-left: 2%;
+    margin-bottom: 1%;
+}
+
+.contentmusic .listmusic .list10 .song{
+  margin-top: 6%;
+  margin-left: 5%;
+  font-size: 18px;
+}
+
+.footer{
+    overflow: hidden;
+    color: black;
+    background-color: slateblue;
+    padding-left: 1%;
+    font-size: 18px;   
+    width: 98%;
+    padding-right: 1%;
+}
+
+.footer .kiri{
+    float: left;
+    font-weight: bold;
+    margin-top: 1%;
+}
+
+.footer .kanan img{
+    width: 2%;
+    float: right;
+    margin-top: 1%;
+    margin-right: 2%;
+    margin-bottom: 1%;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .header .dropdown{
+        margin-top: 3%;
+    }
+    .header .kanan img{
+        width: 11%;
+    }
+
+    .header .dropdown .dropbtn{
+        font-size: 26px;
+    }
+
+    .contentmusic .judul-content{
+        font-size: 27px;
+    }
+
+    .contentmusic .judul-content .judul{
+        margin-left: 5%;
+    }
+
+    .contentmusic .listmusic{
+        margin-left: 30%;
+    }
+
+    .contentmusic .listmusic .list1{
+        width: 70%;
+    }
+
+    .contentmusic .listmusic .list1 .kiri1{
+        margin-top: 12%;
+        font-size: 18px;
+    }
+    
+
+    .contentmusic .listmusic .list1 .gambar{
+       margin-top: 1%;
+       /* width: 2%; */
+    }
+
+    .contentmusic .listmusic .list1 .song{
+        font-size: 16px;
+        margin-left: 3%;
+    }
+
+    .contentmusic .listmusic .list2{
+        width: 70%;
+    }
+
+    .contentmusic .listmusic .list2 .kiri1{
+        margin-top: 12%;
+        font-size: 18px;
+    }
+    
+
+    .contentmusic .listmusic .list2 .gambar{
+       margin-top: 1%;
+    }
+
+    .contentmusic .listmusic .list2 .song{
+        font-size: 16px;
+        margin-left: 3%;
+    }
+
+    .contentmusic .listmusic .list3{
+        width: 70%;
+    }
+
+    .contentmusic .listmusic .list3 .kiri1{
+        margin-top: 12%;
+        font-size: 18px;
+    }
+    
+
+    .contentmusic .listmusic .list3 .gambar{
+       margin-top: 1%;
+    }
+
+    .contentmusic .listmusic .list3 .song{
+        font-size: 16px;
+        margin-left: 3%;
+    }
+
+    .contentmusic .listmusic .list4{
+        width: 70%;
+    }
+
+    .contentmusic .listmusic .list4 .kiri1{
+        margin-top: 12%;
+        font-size: 18px;
+    }
+    
+
+    .contentmusic .listmusic .list4 .gambar{
+       margin-top: 1%;
+    }
+
+    .contentmusic .listmusic .list4 .song{
+        font-size: 16px;
+        margin-left: 3%;
+    }
+
+    .contentmusic .listmusic .list5{
+        width: 70%;
+    }
+
+    .contentmusic .listmusic .list5 .kiri1{
+        margin-top: 12%;
+        font-size: 18px;
+    }
+    
+
+    .contentmusic .listmusic .list5 .gambar{
+       margin-top: 1%;
+    }
+
+    .contentmusic .listmusic .list5 .song{
+        font-size: 16px;
+        margin-left: 3%;
+    }
+
+    .contentmusic .listmusic .list6{
+        width: 70%;
+    }
+
+    .contentmusic .listmusic .list6 .kiri1{
+        margin-top: 12%;
+        font-size: 18px;
+    }
+    
+
+    .contentmusic .listmusic .list6 .gambar{
+       margin-top: 1%;
+    }
+
+    .contentmusic .listmusic .list6 .song{
+        font-size: 16px;
+        margin-left: 3%;
+    }
+
+
+    .contentmusic .listmusic .list7{
+        width: 70%;
+    }
+
+    .contentmusic .listmusic .list7 .kiri1{
+        margin-top: 12%;
+        font-size: 18px;
+    }
+    
+
+    .contentmusic .listmusic .list7 .gambar{
+       margin-top: 1%;
+    }
+
+    .contentmusic .listmusic .list7 .song{
+        font-size: 16px;
+        margin-left: 3%;
+    }
+
+    .contentmusic .listmusic .list8{
+        width: 70%;
+    }
+
+    .contentmusic .listmusic .list8 .kiri1{
+        margin-top: 12%;
+        font-size: 18px;
+    }
+    
+
+    .contentmusic .listmusic .list8 .gambar{
+       margin-top: 1%;
+    }
+
+    .contentmusic .listmusic .list8 .song{
+        font-size: 16px;
+        margin-left: 3%;
+    }
+
+    .contentmusic .listmusic .list9{
+        width: 70%;
+    }
+
+    .contentmusic .listmusic .list9 .kiri1{
+        margin-top: 12%;
+        font-size: 18px;
+    }
+    
+
+    .contentmusic .listmusic .list9 .gambar{
+       margin-top: 1%;
+    }
+
+    .contentmusic .listmusic .list9 .song{
+        font-size: 16px;
+        margin-left: 3%;
+    }
+
+    .contentmusic .listmusic .list10 .gambar{
+        margin-top: 1%;
+     }
+ 
+     .contentmusic .listmusic .list10 .song{
+         font-size: 16px;
+         margin-left: 3%;
+     }
+ 
+     .contentmusic .listmusic .list10{
+         width: 70%;
+     }
+ 
+     .contentmusic .listmusic .list10 .kiri1{
+         margin-top: 12%;
+         font-size: 18px;
+     }
+     
+ 
+     .contentmusic .listmusic .list10 .gambar{
+        margin-top: 1%;
+     }
+ 
+     .contentmusic .listmusic .list10 .song{
+         font-size: 16px;
+         margin-left: 3%;
+     }
+     
+    
+     .footer{
+        font-size: 15px;
+    }
+    
+    .footer .kiri{
+        margin-top: 12px;
+    }
+    
+    .footer .kanan img{
+        width: 4%;
+    }
+    
+}
+
+
+@media only screen and (max-width: 500px) {
+
+    .header .dropdown .dropbtn{
+        font-size: 16px;
+    }
+    .contentmusic .judul-content{
+        font-size: 18px;
+    }
+
+    .header .kanan img{
+        width: 13%;
+    }
+
+    .contentmusic .judul-content .garis{
+        font-size: 13px;
+    }
+
+    .contentmusic .listmusic {
+
+        margin-left: 13%;
+    }
+
+    .contentmusic .listmusic .list1{
+        width: 115%;
+    }
+
+    .contentmusic .listmusic .list1 img{
+        width: 85%;
+        margin-top: 8%;
+    }
+
+    .contentmusic .listmusic .list1 .kiri1 {
+        margin-top: 15%;
+        font-size: 18px;
+    }
+
+    .contentmusic .listmusic .list1 .song{
+        font-size: 13px;
+        margin-top: 10%;
+        margin-right: 2%;
+        margin-bottom: 0%;
+        float: right;
+        justify-content: right;
+    }
+
+    /* .contentmusic .listmusic .list1 .song {
+        margin-top: 6%;
+        margin-left: 5%;
+        font-size: 18px; */
+
+        .contentmusic .listmusic .list2{
+            width: 115%;
+        }
+    
+        .contentmusic .listmusic .list2 img{
+            width: 85%;
+            margin-top: 8%;
+            margin-right: 1%;
+        }
+    
+        .contentmusic .listmusic .list2 .kiri1 {
+            margin-top: 15%;
+            font-size: 18px;
+        }
+    
+        .contentmusic .listmusic .list2 .song{
+            font-size: 13px;
+            margin-top: 10%;
+            margin-right: 5%;
+            margin-bottom: 0%;
+            float: right;
+            /* justify-content: right; */
+        }
+
+        /* LIST 3 */
+
+        .contentmusic .listmusic .list3{
+            width: 115%;
+        }
+    
+        .contentmusic .listmusic .list3 img{
+            width: 85%;
+            margin-top: 8%;
+        }
+    
+        .contentmusic .listmusic .list3 .kiri1 {
+            margin-top: 15%;
+            font-size: 18px;
+        }
+    
+        .contentmusic .listmusic .list3 .song{
+            font-size: 13px;
+            margin-top: 10%;
+            margin-right: 2%;
+            margin-bottom: 0%;
+            float: right;
+            justify-content: right;
+        }
+        /* LIST 4 */
+
+        .contentmusic .listmusic .list4{
+            width: 115%;
+        }
+    
+        .contentmusic .listmusic .list4 img{
+            width: 85%;
+            margin-top: 8%;
+        }
+    
+        .contentmusic .listmusic .list4 .kiri1 {
+            margin-top: 15%;
+            font-size: 18px;
+        }
+    
+        .contentmusic .listmusic .list4 .song{
+            font-size: 13px;
+            margin-top: 10%;
+            margin-right: 7%;
+            margin-bottom: 0%;
+            float: right;
+            justify-content: right;
+        }
+
+        /* LIST 5 */
+
+        .contentmusic .listmusic .list5{
+            width: 115%;
+        }
+    
+        .contentmusic .listmusic .list5 img{
+            width: 85%;
+            margin-top: 8%;
+        }
+    
+        .contentmusic .listmusic .list5 .kiri1 {
+            margin-top: 15%;
+            font-size: 18px;
+        }
+    
+        .contentmusic .listmusic .list5 .song{
+            font-size: 13px;
+            margin-top: 10%;
+            margin-right: 7%;
+            margin-bottom: 0%;
+            float: right;
+            justify-content: right;
+        }
+
+        /* LIST 6 */
+
+        .contentmusic .listmusic .list6{
+            width: 115%;
+        }
+    
+        .contentmusic .listmusic .list6 img{
+            width: 85%;
+            margin-top: 8%;
+        }
+    
+        .contentmusic .listmusic .list6 .kiri1 {
+            margin-top: 15%;
+            font-size: 18px;
+        }
+    
+        .contentmusic .listmusic .list6 .song{
+            font-size: 13px;
+            margin-top: 10%;
+            margin-right: 6%;
+            margin-bottom: 0%;
+            float: right;
+            justify-content: right;
+        }
+
+        /* LIST 7 */
+
+        .contentmusic .listmusic .list7{
+            width: 115%;
+        }
+    
+        .contentmusic .listmusic .list7 img{
+            width: 85%;
+            margin-top: 8%;
+        }
+    
+        .contentmusic .listmusic .list7 .kiri1 {
+            margin-top: 15%;
+            font-size: 18px;
+        }
+    
+        .contentmusic .listmusic .list7 .song{
+            font-size: 13px;
+            margin-top: 10%;
+            margin-right: 4%;
+            margin-bottom: 0%;
+            float: right;
+            justify-content: right;
+        }
+
+        /* LIST 8 */
+
+        .contentmusic .listmusic .list8{
+            width: 115%;
+        }
+    
+        .contentmusic .listmusic .list8 img{
+            width: 85%;
+            margin-top: 8%;
+        }
+    
+        .contentmusic .listmusic .list8 .kiri1 {
+            margin-top: 15%;
+            font-size: 18px;
+        }
+    
+        .contentmusic .listmusic .list8 .song{
+            font-size: 13px;
+            margin-top: 10%;
+            margin-right: 8%;
+            margin-bottom: 0%;
+            float: right;
+            justify-content: right;
+        }
+
+        /* LIST 9 */
+
+        .contentmusic .listmusic .list9{
+            width: 115%;
+        }
+    
+        .contentmusic .listmusic .list9 img{
+            width: 85%;
+            margin-top: 8%;
+        }
+    
+        .contentmusic .listmusic .list9 .kiri1 {
+            margin-top: 15%;
+            font-size: 18px;
+        }
+    
+        .contentmusic .listmusic .list9 .song{
+            font-size: 13px;
+            margin-top: 10%;
+            margin-right: 5%;
+            margin-bottom: 0%;
+            float: right;
+            justify-content: right;
+        }
+
+        /* LIST 10 */
+
+        .contentmusic .listmusic .list10{
+            width: 115%;
+        }
+    
+        .contentmusic .listmusic .list10 img{
+            width: 85%;
+            margin-top: 8%;
+        }
+    
+        .contentmusic .listmusic .list10 .kiri1 {
+            margin-top: 15%;
+            font-size: 18px;
+        }
+    
+        .contentmusic .listmusic .list10 .song{
+            font-size: 13px;
+            margin-top: 10%;
+            margin-left: 0%;
+            margin-right: 0%;
+            margin-bottom: 0%;
+            float: right;
+            justify-content: right;
+        }
+
+
+    .footer{
+        font-size: 12px;
+    }
+
+
+    .footer .kiri{
+        margin-top: 7px;
+    }
+
+    .footer .kanan img{
+        width: 6%;
+    }
+
+}
